@@ -402,6 +402,7 @@ h1#dev-head-3{
 	font-size: 34px;
 	margin-top: 3%;
 	background: -webkit-linear-gradient(rgb(17, 144, 242), rgb(243, 117, 255));
+    background-color: #000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	margin-left: 22%;
@@ -570,16 +571,3 @@ p#service-desc-4{
 	margin: auto;
 	margin-top: 7%;
 }
-
-
-body {
-	padding: 25px;
-	background-color: white;
-	color: black;
-	font-size: 25px;
-  }
-  
-  .dark-mode {
-	background-color: black;
-	color: white;
-  }
