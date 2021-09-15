@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+	background: #f0f0f6;
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+    /* height: 100vh; */
+	display: flex;
+}
+
+p{
+	background: none;
+}
+
+
+.left{
+	width: 22%;
+	/* height: auto; */
+	background: #FFFFFF;
+}
+
+
+.middle{
+	width: 65%;
+	margin-left: 2.5%;
+}
+
+.right{
+	width: 8%;
+	margin-left: 2.5%;
+	background: #FFFFFF;
+}
+
+img#left-profile{
+	width: 150px;
+	height: 150px;
+	border-radius: 10%;
+	display: block;
+	margin: auto;
+	margin-top: 20%;
+}
+
+p#left-name{
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 123.6%;
+	color: #2B2B2B;
+	margin-top: 7%;
+}
+
+p#left-prof{
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	color: #767676;
+	margin-top: 2%;
+}
+
+.social-icons{
+	background: none;
+	text-align: center;
+	
+}
+
+.social-icons img{
+	width: 20px;
+	height: 20px;
+	padding: 8px;
+	background: #FFB400;
+	border-radius: 10%;
+	padding: 5px;
+	margin: 10px;
+}
+hr#left-line-1, hr#left-line-2 , 
+hr#left-line-3 ,  hr#left-line-4,
+hr#left-line-5{
+	width: 80%;
+	margin: auto;
+	margin-top: 5%;
+	border: 0.5px solid #F0F0F6;
+}
+
+.personal-details{
+	width: 90%;
+	display: flex;
+	margin: auto;
+	background: none;
+	margin-left: 8%;
+	margin-top: 10%;
+}
+
+.pd-left{
+	width: 50%;
+	background: none;
+	
+}
+.pd-right{
+	width: 50%;
+	background: none;
+}
+
+.pd-right p{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 28px;
+	color: #2B2B2B;
+	margin-bottom: 10px;
+}
+
+.pd-left p{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 28px;
+	color: #2B2B2B;
+	margin-bottom: 10px;
+}
+
+p#avail{
+	color: #7eb942;
+	font-weight: 900;
+}
+
+p#age{
+	background: #FFB400;
+	width: 40%;
+	text-align: center;
+}
+
+p#res{
+	background: #FFB400;
+	width: 80%;
+	text-align: center;
+}
+
+p#freelance{
+	background: #FFB400;
+	width: 75%;
+	text-align: center;
+}
+
+p#add{
+	background: #FFB400;
+	width: 70%;
+	text-align: center;
+}
+
+
+
+.languages, .skills{
+	background: #FFFFFF;
+
+		
+}
+
+p#lang-head , p#skills-head , p#extra-head{
+	/* border: 1px solid red; */
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 123.6%;
+	color: #2B2B2B;
+	text-align: center;
+	background: #FFFFFF;
+	margin-top: 5%;
+}
+
+.eng, .hin{
+	background: #FFFFFF;
+}
+
+.lang-percent , .skill-top{
+	display: flex;
+	background: #FFFFFF;
+	margin-top: 5%;
+}
+
+p#percent{
+	position: relative;
+	left: 43%;
+}
+
+.eng p, .hin p, .skill-top p{
+	margin-left: 10%;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 550;
+	font-size: 15px;
+	line-height: 24px;
+	background: #FFFFFF;
+	color: #767676;
+}
+
+.outer-level{
+	width: 80%;
+	height: 4px;
+	border: 1px solid #FFB400;
+	border-radius: 30px;
+	margin: auto;
+	margin-top: 4%;
+	background: #FFFFFF;
+}
+
+.inner-level-1, .inner-level-2{
+	width: 90%;
+	height: 2px;
+	background: #FFB400;
+	margin-top: 1px;
+	border-radius: 30px;
+}
+
+.inner-level-2{
+	width: 100%;
+}
+
+
+.skill-1, .skill-2, .skill-3, .skill-4, .skill-5{
+	background: #FFFFFF;
+	margin-top: 5%;
+}
+
+p#skill-head{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	color: #767676;
+	margin-left: 10%;
+}
+
+
+.skill-top p#percent{
+	position:absolute;
+	left: 7%;
+}
+
+.inner-level-3, .inner-level-4,
+.inner-level-5, .inner-level-6, .inner-level-7{
+	height: 2px;
+	background: #FFB400;
+	margin-top: 1px;
+	border-radius: 30px;
+}
+
+.inner-level-3{
+	width: 95%;
+}
+
+.inner-level-4{
+	width: 90%;
+}
+
+.inner-level-5{
+	width: 80%;
+}
+
+.inner-level-6{
+	width: 90%;
+}
+
+.inner-level-7{
+	width: 80%;
+}
+
+
+p#extra-head{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.extra-skills{
+	background: #FFFFFF;
+}
+
+.extra-skills-1{
+	display: flex;
+	background: #FFFFFF;
+	margin-top: 2%;
+}
+
+.extra-skills-1 svg{
+	background: #FFFFFF;
+	position: relative;
+	left: 10%;
+	margin-top: 1%;
+}
+
+.extra-skills-1 p{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	color: #767676;
+	margin-left: 15%;
+}
+
+.resume{
+	background: #FFFFFF;
+}
+
+.resume a{
+	text-decoration: none;
+}
+
+
+.resume a button{
+	background: #FFB400;
+	width: 50%;
+	height: 35px;
+	margin: auto;
+	display: block;
+	margin-top: 8%;
+	border: none;
+	outline: none;
+	text-decoration: none;
+
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+    color: #2B2B2B;
+	margin-bottom: 8%;
+	cursor: pointer;
+
+}
+
+
+
+/********** Middile Section Beigns ***********/
+
+.middle-1{
+	display: flex;
+	background: #FFFFFF;
+	/* margin-top: 5%; */
+}
+
+.middle-1-left, .middle-1-right{
+	background: #FFFFFF;
+	/* border: 1px solid red; */
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.middle-1-left{
+	width: 50%;
+}
+.middle-1-right{
+	width: 50%;
+}
+
+.middle-1-right img{
+	width: 80%;
+	height: 350px;
+	margin: auto;
+	display: block;
+}
+
+.middle-1-left h1{
+	background: #FFFFFF;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 123.6%;
+	color: #2B2B2B;
+	
+}
+
+.middle-1-left h1 label{
+	color: #FFB400;
+	background: #FFFFFF;
+}
+
+h1#dev-head-1{
+	font-size: 48px;
+	margin-top: 15%;
+	margin-left: 10%;
+}
+
+h1#dev-head-2{
+	font-size: 38px;
+	margin-top: 3%;
+	margin-left: 15%;
+}
+
+h1#dev-head-3{
+	font-size: 34px;
+	margin-top: 3%;
+	background: -webkit-linear-gradient(rgb(17, 144, 242), rgb(243, 117, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	margin-left: 22%;
+}
+
+.middle-1 svg{
+	background: #FFFFFF;
+	position: relative;
+}
+
+svg#shape-1{
+	left: 4%;
+	margin-top: 5%;
+}
+
+svg#shape-2{
+	left: 48%;
+	margin-top: 3%;
+}
+
+svg#shape-3{
+	left: 94%;
+	margin-top: 8%;
+}
+
+svg#shape-4{
+	left: 2%;
+	margin-top: 30%;
+}
+
+svg#shape-5{
+	left: 29%;
+	margin-top: 37%;
+}
+
+svg#shape-6{
+	left: 45%;
+	margin-top: 32%;
+}
+
+svg#shape-7{
+	left: 86%;
+	margin-top: 37%;
+}
+
+button#hire-btn{
+	background: #FFB400;
+	width: 38%;
+	height: 35px;
+	display: block;
+	margin-left: 0px;
+	margin-top: 23%;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 17px;
+    color: #2B2B2B;
+	cursor: pointer;
+
+}
+
+.middle-2{
+	margin-top: 15%;
+}
+
+.middle-2 h1{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 123.6%;
+	color: #2B2B2B;
+	text-align: center;
+}
+
+
+p#service-para{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	color: #767676;
+	margin-top: 2%;
+}
+
+.service-box-row-1{
+	display: flex;
+	text-align: center;
+	margin: auto;
+}
+
+.service-box-1 , .service-box-2{
+	width: 280px;
+	height: 175px;
+	background: #FFFFFF;
+	margin-left: 12%;
+	margin-top: 5%;
+	
+}
+
+.service-box-1:hover , .service-box-2:hover{
+    box-shadow:
+       inset 0 -1em 2em rgba(207, 235, 250, 0.1),
+             0.3em 0.3em 1em rgba(157, 151, 151, 0.3);
+	transition: all 0.3s ease-in;		 
+}
+
+.service-box-1 svg ,
+.service-box-2 svg{
+	background: #FFFFFF;
+	margin: auto;
+	display: block;
+	padding-top: 4%;
+	
+}
+
+.service-box-1 p, .service-box-2 p{
+	text-align: center;
+}
+
+p#service-name{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 123.6%;
+	color: #2B2B2B;
+	margin-top: 10%;
+}
+
+p#service-desc, p#service-desc-4{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #767676;
+}
+
+.service-box-2{
+	margin-left: 11%;
+}
+
+p#service-name-2{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 123.6%;
+	color: #2B2B2B;
+	margin-top: 10%;
+	margin-top: 6%;
+}
+
+p#service-desc-4{
+	width: 90%;
+	margin: auto;
+	margin-top: 7%;
+}
+
+
+body {
+	padding: 25px;
+	background-color: white;
+	color: black;
+	font-size: 25px;
+  }
+  
+  .dark-mode {
+	background-color: black;
+	color: white;
+  }
