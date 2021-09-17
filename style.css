@@ -993,7 +993,7 @@ p#city, p#streat{
 	.middle-1 svg{
 		background: #FFFFFF;
 		position: absolute;
-		top: 80%;
+		top: 50%;
 	}
 	
 	svg#shape-1{
