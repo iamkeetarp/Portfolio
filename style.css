@@ -196,7 +196,7 @@ p#lang-head , p#skills-head , p#extra-head{
 
 p#percent{
 	position: relative;
-	left: 43%;
+	left: 41%;
 }
 
 .eng p, .hin p, .skill-top p{
@@ -251,7 +251,7 @@ p#skill-head{
 
 .skill-top p#percent{
 	position:absolute;
-	left: 7%;
+	left: 70%;
 }
 
 .inner-level-3, .inner-level-4,
@@ -386,6 +386,7 @@ p#extra-head{
 	height: 350px;
 	margin: auto;
 	display: block;
+	background: #FFFFFF;
 }
 
 .middle-1-left h1{
@@ -424,7 +425,6 @@ h1#dev-head-3{
     -webkit-text-fill-color: transparent;
 	margin-left: 22%;
 }
-
 .middle-1 svg{
 	background: #FFFFFF;
 	position: relative;
@@ -464,6 +464,7 @@ svg#shape-7{
 	left: 86%;
 	margin-top: 37%;
 }
+
 
 button#hire-btn{
 	background: #FFB400;
@@ -820,6 +821,17 @@ input#name, input#email, input#subject, input#message{
 	height: 35px;
 	margin-left: 5%;
 	margin-top: 2%;
+	padding-left: 5%;
+}
+
+input::placeholder{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 123.6%;
+	color: #000000;
+
 }
 
 input#message{
@@ -908,4 +920,204 @@ p#city, p#streat{
 .right{
 	position: fixed;
 	left: 90%;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+
+.middle-bottom{
+	height: 40px;
+	width: 92.5%;
+	margin-left: 2.5%;
+	
+	background: #FFFFFF;
+}
+
+.middle-bottom p{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 13px;
+	color: #2B2B2B;
+	text-align: center;
+	padding-top: 1.5%;
+}
+
+
+
+@media  screen and (max-width:576px){
+
+	*{
+		margin: 0px;
+	}
+	.left{
+	    display:none;
+	}
+
+	.middle{
+		width: 100%;
+		position: initial;
+		margin: 0px;
+	}
+
+	.middle-1{
+		width: 100%;	
+		flex-wrap: wrap-reverse;
+	}
+
+	h1#dev-head-1, h1#dev-head-2, h1#dev-head-3{
+		text-align: center;
+		margin-left: 0px;
+	}
+
+
+	.middle-1-right img{
+		margin-top: 5%;
+	}
+
+	.middle-1-left, .middle-1-right{
+		width: 100%;
+	}
+	.right{
+		display: none;
+	}
+
+	button#hire-btn{
+		margin: auto;
+		margin-top: 20%;
+	}
+
+	.middle-1 svg{
+		background: #FFFFFF;
+		position: absolute;
+		top: 80%;
+	}
+	
+	svg#shape-1{
+		left: 7%;
+		margin-top: 1%;
+	}
+	
+	svg#shape-2{
+		left: 52%;
+		margin-top: 3%;
+	}
+	
+	svg#shape-3{
+		left: 90%;
+		margin-top: 15%;
+	}
+	
+	svg#shape-4{
+		left: 2%;
+		margin-top: 30%;
+	}
+	
+	svg#shape-5{
+		left: 19%;
+		margin-top: 57%;
+	}
+	
+	svg#shape-6{
+		left: 75%;
+		margin-top: 72%;
+	}
+	
+	svg#shape-7{
+		left: 86%;
+		margin-top: 37%;
+	}
+
+	.middle-2{
+		margin-top: 8%;
+	}
+
+	.middle-2 h1, .middle-3 h1, .middle-4 h1 {
+		font-size: 24px;
+	}
+
+	p#service-para, p#education-para, p#worksample-para{
+		width: 80%;
+		font-size: 13px;
+	}
+
+	.service-box-1, .service-box-2{
+		margin-left: 0px;
+		width: 40%;
+		margin: 5%;
+	}
+
+	p#service-name , p#service-name-2 {
+		font-size: 14px;
+	}
+
+	p#service-desc, p#service-desc-4 {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+
+	
+	img#train, img#mivi, img#trapwall, img#sky, img#fly{
+		height: 300px;
+		
+	}
+
+	
+	img#scenary{		
+		height: 280px;
+	}
+
+	.middle-5-box-1 svg {
+	   width: 20px;
+	   height: 20px;
+	}
+
+	.middle-5-box-1 p#country{
+		margin-top: 15%;
+	}
+
+
+	label#country, label#city, label#streat{
+		font-size: 11px;
+	}
+
+	label#country-name, label#city-name, label#streat-name{
+		line-height: 20px;
+		font-size: 10px;
+	}
+
+	.middle-5-left h2, .middle-5-right h2{
+		font-size: 16px;
+	}
+
+	p#input-name {
+		font-size: 12px;
+	}
+
+	button#message-btn{
+		width: 85%;
+		font-size: 13px;
+	}
+
+	.middle-bottom p {
+	font-size: 11px;
+	padding-top: 3%;
+    }
+
+	input#name, input#email, input#subject, input#message{
+		height: 30px;
+	}
+
+	input#message{
+		height: 100px;
+	}
+
+	.middle-5-box-1 {
+		height: 26.8%;	
+	}
+
 }
