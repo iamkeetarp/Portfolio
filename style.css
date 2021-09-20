@@ -28,6 +28,9 @@ p{
     scroll-behavior: smooth;
 }
 
+button#profile{
+	display: none;
+}
 
 .middle{
 	width: 65%;
@@ -953,10 +956,13 @@ p#city, p#streat{
 	*{
 		margin: 0px;
 	}
-	.left{
+	/* .left{
 	    display:none;
-	}
+	} */
 
+	#leftbar{
+		display: none;
+	}
 	.middle{
 		width: 100%;
 		position: initial;
@@ -993,7 +999,7 @@ p#city, p#streat{
 	.middle-1 svg{
 		background: #FFFFFF;
 		position:absolute;
-		top: 60%;
+		top: 70%;
 		
 	}
 	
@@ -1146,5 +1152,36 @@ p#city, p#streat{
 	.middle-bottom{
 		width:100%;
 		margin: 0px;
+	}
+
+
+	button#profile{
+		display: block;
+		position: absolute;
+		border: 1px solid red;
+		margin-top: 45%;
+		transform: rotate(90deg);
+		left: -11%;
+		background: #FFB400;
+		width: 30%;
+		height: 35px;
+		border: none;
+		outline: none;
+		text-decoration: none;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 17px;
+		color: #2B2B2B;
+		cursor: pointer;
+		z-index: 5;
+	}
+
+	/* sidebar for mobile */
+
+	.left{
+		width: 100%;
+		z-index: 1;
 	}
 }
