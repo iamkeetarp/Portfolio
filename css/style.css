@@ -1157,7 +1157,7 @@ p#city, p#streat{
 
 	button#profile{
 		display: block;
-		position: absolute;
+		position: fixed;
 		border: 1px solid red;
 		margin-top: 45%;
 		transform: rotate(90deg);
@@ -1184,4 +1184,64 @@ p#city, p#streat{
 		width: 100%;
 		z-index: 1;
 	}
+
+	.personal-details{
+		margin: auto;
+		text-align: center;
+	}
+
+   p#age, p#freelance, p#res , p#add{
+	margin-left: 10%;
+	font-size: 12px;
+
+   }
+
+	
+
+	p#age{
+		margin-top: 10%;	
+		width: 30%;
+	}
+
+	p#freelance, p#res{
+		width: 55%;
+	}
+
+	p#add{
+		width: 50%;
+	}
+
+	.pd-right{
+		margin-top: 5%;		
+	}
+
+	.pd-right p{
+		font-size: 12px;
+	}
+
+	.languages, .skills {
+		width: 90%;
+		margin: auto;
+	}
+	.eng p, .hin p, .skill-top p, p#skill-head	{
+		font-size: 13px;
+	}
+
+	p#percent{
+		left: 51%;
+	}
+
+	.outer-level{
+		margin-top: 2%;
+	}
+
+	.extra-skills-1 p{
+		font-size: 13px;
+	}
+
+	.resume a button {
+		width: 35%;
+	}
+
+	
 }
