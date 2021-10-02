@@ -19,8 +19,7 @@ p{
 .left{
 	width: 22%;
 	/* height: auto; */
-	background: #FFFFFF;
-
+	background: #FFFFFF;	
 	top: 0;
     bottom:0;
 	position:fixed;
@@ -41,7 +40,9 @@ button#profile{
 	width: 8%;
 	margin-left: 2.5%;
 	background: #FFFFFF;
+	height: 100vh;
 }
+
 
 img#left-profile{
 	width: 150px;
@@ -518,10 +519,13 @@ p#service-para, p#education-para, p#worksample-para {
 	margin-top: 2%;
 }
 
+
+
 .service-box-row-1{
 	display: flex;
 	text-align: center;
 	margin: auto;
+	align-content: center;
 }
 
 .service-box-1 , .service-box-2{
@@ -948,6 +952,52 @@ p#city, p#streat{
 	text-align: center;
 	padding-top: 1.5%;
 }
+
+
+/******* Right Section ********8*/
+
+.right-bottom{
+	background: #FFFFFF;
+	margin-top: 200px;
+	
+}
+
+.right svg{
+	width: 25px;
+	height: 25px;
+	background: #F0F0F6;
+	padding: 5%;
+	border-radius: 50%;
+}
+
+.right svg:hover{
+	background: #FFB400;
+}
+
+.right-bottom svg{
+	width: 25px;
+	height: 25px;
+	background: #F0F0F6;
+	padding: 5%;
+	border-radius: 50%;
+}
+
+
+.right-bottom svg:hover{
+	background: #FFB400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
